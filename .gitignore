@@ -1,0 +1,93 @@
+# Environment
+.env
+*.env
+
+# Conda
+env/
+envs/
+*.conda
+conda-meta/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large raw sequencing data should not be committed)
+data/raw/
+data/fastq/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.bam
+*.bam.bai
+*.sam
+*.vcf
+*.vcf.gz
+*.tbi
+*.cram
+
+# TB-Profiler outputs (can be large)
+results/tbprofiler/*.json
+results/tbprofiler/*.txt
+results/tbprofiler/*.bam
+results/tbprofiler/*.bam.bai
+results/tbprofiler/*.vcf.gz
+results/tbprofiler/*.targets.csq.vcf.gz
+
+# QC outputs
+results/qc/
+
+# Figures (optional — remove these lines if you want figures tracked)
+results/figures/*.png
+results/figures/*.pdf
+results/figures/*.svg
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Snakemake
+.snakemake/
+*.snakemake.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
