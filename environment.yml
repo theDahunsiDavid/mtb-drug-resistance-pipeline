@@ -1,0 +1,16 @@
+name: tb-bioinformatics
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - sra-tools=3.1
+  - fastqc=0.12
+  - trimmomatic=0.39
+  - tb-profiler=6.3
+  - pandas=2.2
+  - matplotlib=3.9
+  - seaborn=0.13
+  - pip
+  - pip:
+      - setuptools<72
