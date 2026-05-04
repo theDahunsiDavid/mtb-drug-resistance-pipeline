@@ -56,17 +56,8 @@ results/tbprofiler/*.bam.bai
 results/tbprofiler/*.vcf.gz
 results/tbprofiler/*.targets.csq.vcf.gz
 
-# QC outputs
-results/qc/
-
-# Figures (optional — remove these lines if you want figures tracked)
-results/figures/*.png
-results/figures/*.pdf
-results/figures/*.svg
-
 # Logs
-logs/
-*.log
+out/
 *.out
 *.err
 
