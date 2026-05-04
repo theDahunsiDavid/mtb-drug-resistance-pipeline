@@ -85,3 +85,6 @@ temp/
 
 # Binary files
 Miniforge3-Linux-x86_64.sh
+
+# Error logs
+*.errlog.txt
