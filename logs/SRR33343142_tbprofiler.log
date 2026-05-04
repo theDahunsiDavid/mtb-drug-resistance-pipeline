@@ -1,0 +1,125 @@
+Traceback (most recent call last):
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 636, in <module>
+    args.func(args)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 117, in main_profile
+    variants_profile = pp.run_profiler(args)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/cli.py", line 194, in run_profiler
+    args.bam = get_bam_file(args)
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/cli.py", line 258, in get_bam_file
+    bam_obj = fastq_obj.map_to_ref(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/fastq.py", line 122, in map_to_ref
+    run_cmd("samtools sort -m %(max_mem)s -n -@ %(threads)s  %(bam_unsort_file)s | samtools fixmate -@ %(threads)s -m - - | samtools sort -m %(max_mem)s -@ %(threads)s - | samtools markdup -@ %(threads)s - %(bam_file)s" % vars(self))
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/utils.py", line 495, in run_cmd
+    result = sp.run(cmd,shell=True,stderr=output,stdout=output)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/subprocess.py", line 2115, in _communicate
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Cleaning up after failed run
+Exception ignored in atexit callback: <function cleanup at 0x7f5f60811f80>
+Traceback (most recent call last):
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 75, in cleanup
+    logging.error("""\n
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/logging/__init__.py", line 2108, in error
+    root.error(msg, *args, **kwargs)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/logging/__init__.py", line 1518, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/logging/__init__.py", line 1634, in _log
+    self.handle(record)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/logging/__init__.py", line 1644, in handle
+    self.callHandlers(record)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/logging/__init__.py", line 1706, in callHandlers
+    hdlr.handle(record)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/logging/__init__.py", line 978, in handle
+    self.emit(record)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/rich/logging.py", line 186, in emit
+    self.console.print(log_renderable)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/rich/console.py", line 1704, in print
+    with self:
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/rich/console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/rich/console.py", line 820, in _exit_buffer
+    self._check_buffer()
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/rich/console.py", line 2057, in _check_buffer
+    self.on_broken_pipe()
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/rich/console.py", line 2042, in on_broken_pipe
+    raise SystemExit(1)
+SystemExit: 1
+Calling variants:   0%|          | 0/73 [00:00<?, ?it/s]Calling variants:   1%|▏         | 1/73 [00:01<02:16,  1.90s/it]Calling variants:   4%|▍         | 3/73 [00:02<00:52,  1.34it/s]Calling variants:   7%|▋         | 5/73 [00:02<00:27,  2.43it/s]Calling variants:   8%|▊         | 6/73 [00:03<00:24,  2.73it/s]Calling variants:  11%|█         | 8/73 [00:03<00:18,  3.46it/s]Calling variants:  14%|█▎        | 10/73 [00:03<00:15,  4.11it/s]Calling variants:  16%|█▋        | 12/73 [00:04<00:18,  3.30it/s]Calling variants:  19%|█▉        | 14/73 [00:05<00:18,  3.22it/s]Calling variants:  22%|██▏       | 16/73 [00:05<00:13,  4.31it/s]Calling variants:  23%|██▎       | 17/73 [00:05<00:12,  4.65it/s]Calling variants:  25%|██▍       | 18/73 [00:05<00:11,  4.66it/s]Calling variants:  26%|██▌       | 19/73 [00:05<00:10,  5.12it/s]Calling variants:  27%|██▋       | 20/73 [00:06<00:12,  4.35it/s]Calling variants:  30%|███       | 22/73 [00:06<00:10,  4.76it/s]Calling variants:  33%|███▎      | 24/73 [00:06<00:08,  5.83it/s]Calling variants:  34%|███▍      | 25/73 [00:06<00:08,  5.42it/s]Calling variants:  36%|███▌      | 26/73 [00:07<00:09,  4.88it/s]Calling variants:  38%|███▊      | 28/73 [00:07<00:09,  4.76it/s]Calling variants:  41%|████      | 30/73 [00:08<00:11,  3.90it/s]Calling variants:  44%|████▍     | 32/73 [00:09<00:11,  3.43it/s]Calling variants:  47%|████▋     | 34/73 [00:09<00:11,  3.28it/s]Calling variants:  49%|████▉     | 36/73 [00:10<00:10,  3.64it/s]Calling variants:  52%|█████▏    | 38/73 [00:10<00:08,  4.02it/s]Calling variants:  55%|█████▍    | 40/73 [00:11<00:08,  3.92it/s]Calling variants:  58%|█████▊    | 42/73 [00:11<00:08,  3.81it/s]Calling variants:  60%|██████    | 44/73 [00:12<00:07,  4.06it/s]Calling variants:  63%|██████▎   | 46/73 [00:12<00:06,  4.07it/s]Calling variants:  66%|██████▌   | 48/73 [00:12<00:05,  4.90it/s]Calling variants:  67%|██████▋   | 49/73 [00:12<00:04,  5.09it/s]Calling variants:  68%|██████▊   | 50/73 [00:13<00:04,  5.38it/s]Calling variants:  70%|██████▉   | 51/73 [00:13<00:04,  5.21it/s]Calling variants:  73%|███████▎  | 53/73 [00:13<00:03,  5.05it/s]Calling variants:  75%|███████▌  | 55/73 [00:14<00:03,  4.57it/s]Calling variants:  78%|███████▊  | 57/73 [00:14<00:03,  4.88it/s]Calling variants:  81%|████████  | 59/73 [00:15<00:02,  4.78it/s]Calling variants:  82%|████████▏ | 60/73 [00:15<00:02,  5.14it/s]Calling variants:  84%|████████▎ | 61/73 [00:15<00:02,  5.20it/s]Calling variants:  85%|████████▍ | 62/73 [00:15<00:02,  4.05it/s]Calling variants:  88%|████████▊ | 64/73 [00:16<00:02,  4.13it/s]Calling variants:  89%|████████▉ | 65/73 [00:16<00:02,  3.63it/s]Calling variants:  92%|█████████▏| 67/73 [00:17<00:01,  3.61it/s]Calling variants:  95%|█████████▍| 69/73 [00:17<00:00,  4.18it/s]Calling variants:  96%|█████████▌| 70/73 [00:17<00:00,  3.63it/s]Calling variants:  99%|█████████▊| 72/73 [00:18<00:00,  4.81it/s]Calling variants: 100%|██████████| 73/73 [00:18<00:00,  4.01it/s]
+Indexing variants:   0%|          | 0/73 [00:00<?, ?it/s]Indexing variants:   7%|▋         | 5/73 [00:00<00:01, 44.79it/s]Indexing variants:  18%|█▊        | 13/73 [00:00<00:01, 46.02it/s]Indexing variants:  29%|██▉       | 21/73 [00:00<00:00, 52.33it/s]Indexing variants:  40%|███▉      | 29/73 [00:00<00:01, 42.02it/s]Indexing variants:  62%|██████▏   | 45/73 [00:00<00:00, 54.21it/s]Indexing variants:  89%|████████▉ | 65/73 [00:00<00:00, 82.34it/s]Indexing variants: 100%|██████████| 73/73 [00:01<00:00, 64.77it/s]
+Traceback (most recent call last):
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 636, in <module>
+    args.func(args)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 117, in main_profile
+    variants_profile = pp.run_profiler(args)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/cli.py", line 195, in run_profiler
+    get_vcf_file(args)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/cli.py", line 177, in get_vcf_file
+    args.vcf = get_vcf_from_bam(args)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/cli.py", line 157, in get_vcf_from_bam
+    delly_vcf_obj = bam.run_delly(conf['ref'],conf['bed'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/bam.py", line 88, in run_delly
+    run_cmd("delly call -t DEL -g %(ref_file)s %(bam_file)s -o %(prefix)s.delly.bcf" % vars(self))            
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/utils.py", line 498, in run_cmd
+    raise ValueError("Command Failed:\n%s\nstderr:\n%s" % (cmd,result.stderr.decode()))
+ValueError: Command Failed:
+/bin/bash -c set -o pipefail; delly call -t DEL -g /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.fasta /home/dre/Documents/mtb-drug-resistance-pipeline/1bf47331-7104-47f0-9650-8d7b52b8d188.bam -o /home/dre/Documents/mtb-drug-resistance-pipeline/1bf47331-7104-47f0-9650-8d7b52b8d188.delly.bcf
+stderr:
+delly: error while loading shared libraries: libboost_iostreams.so.1.85.0: cannot open shared object file: No such file or directory
+
+Cleaning up after failed run
+Calling variants:   0%|          | 0/2 [00:00<?, ?it/s]Calling variants:  50%|█████     | 1/2 [02:38<02:38, 158.17s/it]Calling variants: 100%|██████████| 2/2 [02:38<00:00, 79.09s/it] 
+Indexing variants:   0%|          | 0/2 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 2/2 [00:00<00:00, 39.27it/s]
+Traceback (most recent call last):
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 636, in <module>
+    args.func(args)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 117, in main_profile
+    variants_profile = pp.run_profiler(args)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/cli.py", line 207, in run_profiler
+    annotated_variants = vcf_profiler(args)
+                         ^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/profiler.py", line 52, in vcf_profiler
+    annotated_variants = vcf_variant_profiler(conf, args.files_prefix, args.vcf, bam_for_phasing=args.supplementary_bam)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/profiler.py", line 66, in vcf_variant_profiler
+    vcf_obj = vcf_obj.run_snpeff(conf["snpEff_db"],conf["ref"],conf["gff"],rename_chroms= conf.get("chromosome_conversion",None),bam_for_phasing=bam_for_phasing)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/vcf.py", line 138, in run_snpeff
+    run_cmd("bcftools view -c 1 -a %(filename)s | bcftools view -v snps | combine_vcf_variants.py --ref %(ref_file)s --gff %(gff_file)s %(phasing_bam)s | %(rename_cmd)s snpEff ann %(snpeff_data_dir_opt)s -noLog -noStats %(db)s - %(re_rename_cmd)s | bcftools sort -Oz -o %(tmp_file1)s && bcftools index %(tmp_file1)s" % vars(self))
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/pathogenprofiler/utils.py", line 498, in run_cmd
+    raise ValueError("Command Failed:\n%s\nstderr:\n%s" % (cmd,result.stderr.decode()))
+ValueError: Command Failed:
+/bin/bash -c set -o pipefail; bcftools view -c 1 -a /home/dre/Documents/mtb-drug-resistance-pipeline/5bbe85c2-a5ec-4722-bb7c-a32329f054db.targets_for_profile.vcf.gz | bcftools view -v snps | combine_vcf_variants.py --ref /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.fasta --gff /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.gff --bam /home/dre/Documents/mtb-drug-resistance-pipeline/5bbe85c2-a5ec-4722-bb7c-a32329f054db.bam |  snpEff ann -dataDir /home/dre/miniforge3/envs/tb-bioinformatics/share/snpeff-5.3.0a-0/data -noLog -noStats Mycobacterium_tuberculosis_h37rv -  | bcftools sort -Oz -o c79aa063-412b-42f5-b565-103bf529c93f.1.vcf.gz && bcftools index c79aa063-412b-42f5-b565-103bf529c93f.1.vcf.gz
+stderr:
+Writing to /tmp/bcftools.v2dlBl
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+Error: LinkageError occurred while loading main class org.snpeff.SnpEff
+	java.lang.UnsupportedClassVersionError: org/snpeff/SnpEff has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+[E::bcf_hdr_read] Input is not detected as bcf or vcf format
+Could not read VCF/BCF headers from -
+Cleaning
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer
+
+Cleaning up after failed run
+Calling variants:   0%|          | 0/2 [00:00<?, ?it/s]Calling variants:  50%|█████     | 1/2 [02:16<02:16, 136.83s/it]Calling variants: 100%|██████████| 2/2 [02:16<00:00, 68.41s/it] 
+Indexing variants:   0%|          | 0/2 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 2/2 [00:00<00:00, 48.54it/s]
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer

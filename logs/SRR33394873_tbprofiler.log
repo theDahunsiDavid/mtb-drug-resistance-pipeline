@@ -1,0 +1,3 @@
+Calling variants:   0%|          | 0/2 [00:00<?, ?it/s]Calling variants:  50%|█████     | 1/2 [02:11<02:11, 131.94s/it]Calling variants: 100%|██████████| 2/2 [02:12<00:00, 54.53s/it] Calling variants: 100%|██████████| 2/2 [02:12<00:00, 66.14s/it]
+Indexing variants:   0%|          | 0/2 [00:00<?, ?it/s]Indexing variants: 100%|██████████| 2/2 [00:00<00:00, 28.12it/s]
+[W::bcf_hdr_check_sanity] GQ should be declared as Type=Integer

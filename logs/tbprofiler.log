@@ -1,0 +1,831 @@
+------------------------------------------
+Processing: SRR33343142
+------------------------------------------
+[05:29:47] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+[05:29:48] INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[05:30:23] INFO     Mapping to reference genome                      fastq.py:53
+[05:40:21] INFO     Running snpEff                                    vcf.py:119
+[05:40:35] INFO     Loading snpEff annotations                        vcf.py:156
+[05:40:36] INFO     Getting genotypes for positions in bed file       bam.py:284
+[05:40:46] INFO     Calculating bamstats                              bam.py:344
+[05:41:08] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[05:41:17] INFO     Calculating median depth using samtools           bam.py:214
+[05:41:24] INFO     Getting missing genomic positions                 bam.py:371
+[05:41:26] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343142.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343142.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343272
+------------------------------------------
+[05:41:27] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+[05:41:28] INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[05:42:05] INFO     Mapping to reference genome                      fastq.py:53
+[05:51:03] INFO     Running snpEff                                    vcf.py:119
+[05:51:11] INFO     Loading snpEff annotations                        vcf.py:156
+[05:51:13] INFO     Getting genotypes for positions in bed file       bam.py:284
+[05:51:21] INFO     Calculating bamstats                              bam.py:344
+[05:51:44] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[05:51:53] INFO     Calculating median depth using samtools           bam.py:214
+[05:51:59] INFO     Getting missing genomic positions                 bam.py:371
+[05:52:00] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343272.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343272.result             
+                    s.csv                                                       
+[05:52:01] INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343123
+------------------------------------------
+[05:52:02] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+[05:52:03] INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[05:52:47] INFO     Mapping to reference genome                      fastq.py:53
+[06:02:18] INFO     Running snpEff                                    vcf.py:119
+[06:02:25] INFO     Loading snpEff annotations                        vcf.py:156
+[06:02:27] INFO     Getting genotypes for positions in bed file       bam.py:284
+[06:02:33] INFO     Calculating bamstats                              bam.py:344
+[06:02:51] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[06:02:57] INFO     Calculating median depth using samtools           bam.py:214
+[06:03:02] INFO     Getting missing genomic positions                 bam.py:371
+[06:03:03] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343123.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343123.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343286
+------------------------------------------
+[06:03:04] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+[06:03:05] INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[06:03:44] INFO     Mapping to reference genome                      fastq.py:53
+[06:10:41] INFO     Running snpEff                                    vcf.py:119
+[06:10:48] INFO     Loading snpEff annotations                        vcf.py:156
+[06:10:50] INFO     Getting genotypes for positions in bed file       bam.py:284
+[06:10:56] INFO     Calculating bamstats                              bam.py:344
+[06:11:13] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[06:11:20] INFO     Calculating median depth using samtools           bam.py:214
+[06:11:24] INFO     Getting missing genomic positions                 bam.py:371
+[06:11:25] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343286.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343286.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343288
+------------------------------------------
+[06:11:27] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[06:11:58] INFO     Mapping to reference genome                      fastq.py:53
+[06:18:29] INFO     Running snpEff                                    vcf.py:119
+[06:18:35] INFO     Loading snpEff annotations                        vcf.py:156
+[06:18:36] INFO     Getting genotypes for positions in bed file       bam.py:284
+[06:18:41] INFO     Calculating bamstats                              bam.py:344
+[06:18:55] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[06:19:00] INFO     Calculating median depth using samtools           bam.py:214
+[06:19:04] INFO     Getting missing genomic positions                 bam.py:371
+[06:19:05] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343288.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343288.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343103
+------------------------------------------
+[06:19:06] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[06:19:53] INFO     Mapping to reference genome                      fastq.py:53
+[06:26:00] INFO     Running snpEff                                    vcf.py:119
+[06:26:07] INFO     Loading snpEff annotations                        vcf.py:156
+[06:26:09] INFO     Getting genotypes for positions in bed file       bam.py:284
+[06:26:15] INFO     Calculating bamstats                              bam.py:344
+[06:26:30] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[06:26:37] INFO     Calculating median depth using samtools           bam.py:214
+[06:26:42] INFO     Getting missing genomic positions                 bam.py:371
+[06:26:43] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343103.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343103.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343215
+------------------------------------------
+[06:26:44] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[06:27:03] INFO     Mapping to reference genome                      fastq.py:53
+[06:33:35] INFO     Running snpEff                                    vcf.py:119
+[06:33:41] INFO     Loading snpEff annotations                        vcf.py:156
+[06:33:43] INFO     Getting genotypes for positions in bed file       bam.py:284
+[06:33:47] INFO     Calculating bamstats                              bam.py:344
+[06:34:00] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[06:34:06] INFO     Calculating median depth using samtools           bam.py:214
+[06:34:10] INFO     Getting missing genomic positions                 bam.py:371
+[06:34:11] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343215.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343215.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343226
+------------------------------------------
+[06:34:12] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[06:34:29] INFO     Mapping to reference genome                      fastq.py:53
+[06:40:10] INFO     Running snpEff                                    vcf.py:119
+[06:40:16] INFO     Loading snpEff annotations                        vcf.py:156
+[06:40:17] INFO     Getting genotypes for positions in bed file       bam.py:284
+[06:40:22] INFO     Calculating bamstats                              bam.py:344
+[06:40:36] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[06:40:41] INFO     Calculating median depth using samtools           bam.py:214
+[06:40:45] INFO     Getting missing genomic positions                 bam.py:371
+[06:40:46] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343226.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343226.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343122
+------------------------------------------
+[06:40:47] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[06:41:07] INFO     Mapping to reference genome                      fastq.py:53
+[06:46:33] INFO     Running snpEff                                    vcf.py:119
+[06:46:39] INFO     Loading snpEff annotations                        vcf.py:156
+[06:46:40] INFO     Getting genotypes for positions in bed file       bam.py:284
+[06:46:45] INFO     Calculating bamstats                              bam.py:344
+[06:46:58] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[06:47:03] INFO     Calculating median depth using samtools           bam.py:214
+[06:47:07] INFO     Getting missing genomic positions                 bam.py:371
+[06:47:08] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343122.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343122.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343152
+------------------------------------------
+[06:47:09] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[06:47:31] INFO     Mapping to reference genome                      fastq.py:53
+[06:54:24] INFO     Running snpEff                                    vcf.py:119
+[06:54:31] INFO     Loading snpEff annotations                        vcf.py:156
+[06:54:32] INFO     Getting genotypes for positions in bed file       bam.py:284
+[06:54:38] INFO     Calculating bamstats                              bam.py:344
+[06:54:54] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[06:55:01] INFO     Calculating median depth using samtools           bam.py:214
+[06:55:06] INFO     Getting missing genomic positions                 bam.py:371
+[06:55:07] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343152.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343152.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343260
+------------------------------------------
+[06:55:08] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[06:55:26] INFO     Mapping to reference genome                      fastq.py:53
+[07:01:39] INFO     Running snpEff                                    vcf.py:119
+[07:01:46] INFO     Loading snpEff annotations                        vcf.py:156
+[07:01:48] INFO     Getting genotypes for positions in bed file       bam.py:284
+[07:01:53] INFO     Calculating bamstats                              bam.py:344
+[07:02:08] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[07:02:14] INFO     Calculating median depth using samtools           bam.py:214
+[07:02:19] INFO     Getting missing genomic positions                 bam.py:371
+[07:02:20] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343260.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343260.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343120
+------------------------------------------
+[07:02:21] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[07:02:53] INFO     Mapping to reference genome                      fastq.py:53
+[07:08:57] INFO     Running snpEff                                    vcf.py:119
+[07:09:04] INFO     Loading snpEff annotations                        vcf.py:156
+[07:09:06] INFO     Getting genotypes for positions in bed file       bam.py:284
+[07:09:11] INFO     Calculating bamstats                              bam.py:344
+[07:09:26] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[07:09:32] INFO     Calculating median depth using samtools           bam.py:214
+[07:09:36] INFO     Getting missing genomic positions                 bam.py:371
+[07:09:37] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343120.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343120.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343081
+------------------------------------------
+[07:09:38] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[07:09:59] INFO     Mapping to reference genome                      fastq.py:53
+[07:16:38] INFO     Running snpEff                                    vcf.py:119
+[07:16:48] INFO     Loading snpEff annotations                        vcf.py:156
+[07:16:49] INFO     Getting genotypes for positions in bed file       bam.py:284
+[07:16:56] INFO     Calculating bamstats                              bam.py:344
+[07:17:16] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[07:17:24] INFO     Calculating median depth using samtools           bam.py:214
+[07:17:30] INFO     Getting missing genomic positions                 bam.py:371
+[07:17:31] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343081.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343081.result             
+                    s.csv                                                       
+[07:17:32] INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33394873
+------------------------------------------
+[07:17:34] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[07:17:54] INFO     Mapping to reference genome                      fastq.py:53
+[07:27:50] INFO     Running snpEff                                    vcf.py:119
+[07:28:00] INFO     Loading snpEff annotations                        vcf.py:156
+[07:28:01] INFO     Getting genotypes for positions in bed file       bam.py:284
+[07:28:11] INFO     Calculating bamstats                              bam.py:344
+[07:28:29] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[07:28:38] INFO     Calculating median depth using samtools           bam.py:214
+[07:28:44] INFO     Getting missing genomic positions                 bam.py:371
+[07:28:45] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33394873.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33394873.result             
+                    s.csv                                                       
+[07:28:46] INFO     Profiling finished sucessfully!              tb-profiler:203
+------------------------------------------
+Processing: SRR33343268
+------------------------------------------
+[07:28:47] INFO     Using ref file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.fasta                                      
+           INFO     Using gff file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.gff                                        
+           INFO     Using bed file:                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.bed                                        
+           INFO     Using json_db file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.dr.json                                    
+           INFO     Using variables file:                              db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.variables.json                             
+           INFO     Using spoligotype_spacers file:                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_spacers.txt                    
+           INFO     Using spoligotype_annotations file:                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.spoligotype_list.csv                       
+           INFO     Using bedmask file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.mask.bed                                   
+           INFO     Using barcode file:                                db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.barcode.bed                                
+           INFO     Using rules file:                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/          
+                    tbprofiler//tbdb.rules.txt                                  
+           INFO     Trimming reads                                   fastq.py:39
+[07:29:12] INFO     Mapping to reference genome                      fastq.py:53
+[07:37:52] INFO     Running snpEff                                    vcf.py:119
+[07:38:01] INFO     Loading snpEff annotations                        vcf.py:156
+[07:38:04] INFO     Getting genotypes for positions in bed file       bam.py:284
+[07:38:11] INFO     Calculating bamstats                              bam.py:344
+[07:38:30] INFO     Getting qc metrics for regions                    bam.py:378
+           INFO     Calculating depth in regions                       bam.py:54
+[07:38:39] INFO     Calculating median depth using samtools           bam.py:214
+[07:38:45] INFO     Getting missing genomic positions                 bam.py:371
+[07:38:46] INFO     Writing outputs                                  output.py:7
+           INFO     Writing json file:                              output.py:14
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343268.result             
+                    s.json                                                      
+           INFO     Writing csv file:                               output.py:21
+                    /home/dre/Documents/mtb-drug-resistance-pipelin             
+                    e/results/tbprofiler/results/SRR33343268.result             
+                    s.csv                                                       
+           INFO     Profiling finished sucessfully!              tb-profiler:203
+TB-Profiler complete. Collating results...
+[07:38:47] INFO     Using ref file: /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.fasta               db.py:591
+           INFO     Using gff file: /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.gff                 db.py:591
+           INFO     Using bed file: /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.bed                 db.py:591
+           INFO     Using json_db file: /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.dr.json         db.py:591
+[07:38:48] INFO     Using variables file:                                                                                  db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.variables.json                               
+           INFO     Using spoligotype_spacers file:                                                                        db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.spoligotype_spacers.txt                      
+           INFO     Using spoligotype_annotations file:                                                                    db.py:591
+                    /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.spoligotype_list.csv                         
+           INFO     Using bedmask file: /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.mask.bed        db.py:591
+           INFO     Using barcode file: /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.barcode.bed     db.py:591
+           INFO     Using rules file: /home/dre/miniforge3/envs/tb-bioinformatics/share/tbprofiler//tbdb.rules.txt         db.py:591
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 636, in <module>
+    args.func(args)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/bin/tb-profiler", line 289, in main_collate
+    tbp.collate_results(args)
+  File "/home/dre/miniforge3/envs/tb-bioinformatics/lib/python3.11/site-packages/tbprofiler/collate.py", line 145, in collate_results
+    writer = csv.DictWriter(O,fieldnames=list(rows[0]),delimiter=args.sep)
+                                              ~~~~^^^
+IndexError: list index out of range
+Cleaning up after failed run
+           ERROR                                                                                                      tb-profiler:75
+                                                                                                                                    
+                    ################################# ERROR #######################################                                 
+                                                                                                                                    
+                    This run has failed. Please check all arguments and make sure all input files                                   
+                    exist. If no solution is found, please open up an issue at                                                      
+                    https://github.com/jodyphelan/TBProfiler/issues/new and paste or attach the                                     
+                    contents of the error log (tbprofiler_summary.errlog.txt)                                                       
+                                                                                                                                    
+                    ###############################################################################                                 
+                                                                                                                                    

@@ -55,6 +55,7 @@ results/tbprofiler/*.bam
 results/tbprofiler/*.bam.bai
 results/tbprofiler/*.vcf.gz
 results/tbprofiler/*.targets.csq.vcf.gz
+results/tbprofiler/results/
 
 # Logs
 out/
