@@ -1,0 +1,225 @@
+------------------------------------------
+Processing: SRR33343142
+------------------------------------------
+2026-05-03T09:01:25 prefetch.3.1.1: 1) Resolving 'SRR33343142'...
+2026-05-03T09:01:28 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T09:01:29 prefetch.3.1.1: 1) Downloading 'SRR33343142'...
+2026-05-03T09:01:29 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T09:01:29 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T09:04:30 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T09:04:31 prefetch.3.1.1:  'SRR33343142' is valid: 394512037 bytes were streamed from 394501635
+2026-05-03T09:04:31 prefetch.3.1.1: 1) 'SRR33343142' was downloaded successfully
+2026-05-03T09:04:31 prefetch.3.1.1: 'SRR33343142' has 0 unresolved dependencies
+spots read      : 4,341,322
+reads read      : 8,682,644
+reads written   : 8,682,644
+------------------------------------------
+Processing: SRR33343272
+------------------------------------------
+2026-05-03T09:17:48 prefetch.3.1.1: 1) Resolving 'SRR33343272'...
+2026-05-03T09:17:51 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T09:17:52 prefetch.3.1.1: 1) Downloading 'SRR33343272'...
+2026-05-03T09:17:52 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T09:17:52 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T09:20:44 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T09:20:44 prefetch.3.1.1:  'SRR33343272' is valid: 351280668 bytes were streamed from 351265303
+2026-05-03T09:20:44 prefetch.3.1.1: 1) 'SRR33343272' was downloaded successfully
+2026-05-03T09:20:44 prefetch.3.1.1: 'SRR33343272' has 0 unresolved dependencies
+spots read      : 3,936,985
+reads read      : 7,873,970
+reads written   : 7,873,970
+------------------------------------------
+Processing: SRR33343123
+------------------------------------------
+2026-05-03T09:32:31 prefetch.3.1.1: 1) Resolving 'SRR33343123'...
+2026-05-03T09:32:35 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T09:32:36 prefetch.3.1.1: 1) Downloading 'SRR33343123'...
+2026-05-03T09:32:36 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T09:32:36 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T09:35:02 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T09:35:02 prefetch.3.1.1:  'SRR33343123' is valid: 342482086 bytes were streamed from 342476311
+2026-05-03T09:35:02 prefetch.3.1.1: 1) 'SRR33343123' was downloaded successfully
+2026-05-03T09:35:02 prefetch.3.1.1: 'SRR33343123' has 0 unresolved dependencies
+spots read      : 3,908,316
+reads read      : 7,816,632
+reads written   : 7,816,632
+------------------------------------------
+Processing: SRR33343286
+------------------------------------------
+2026-05-03T09:46:44 prefetch.3.1.1: 1) Resolving 'SRR33343286'...
+2026-05-03T09:46:46 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T09:46:47 prefetch.3.1.1: 1) Downloading 'SRR33343286'...
+2026-05-03T09:46:47 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T09:46:47 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T09:49:33 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T09:49:34 prefetch.3.1.1:  'SRR33343286' is valid: 325160736 bytes were streamed from 325148183
+2026-05-03T09:49:34 prefetch.3.1.1: 1) 'SRR33343286' was downloaded successfully
+2026-05-03T09:49:34 prefetch.3.1.1: 'SRR33343286' has 0 unresolved dependencies
+spots read      : 3,668,876
+reads read      : 7,337,752
+reads written   : 7,337,752
+------------------------------------------
+Processing: SRR33343288
+------------------------------------------
+2026-05-03T10:01:56 prefetch.3.1.1: 1) Resolving 'SRR33343288'...
+2026-05-03T10:02:00 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T10:02:01 prefetch.3.1.1: 1) Downloading 'SRR33343288'...
+2026-05-03T10:02:01 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T10:02:01 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T10:04:55 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T10:04:56 prefetch.3.1.1:  'SRR33343288' is valid: 322836879 bytes were streamed from 322823703
+2026-05-03T10:04:56 prefetch.3.1.1: 1) 'SRR33343288' was downloaded successfully
+2026-05-03T10:04:56 prefetch.3.1.1: 'SRR33343288' has 0 unresolved dependencies
+spots read      : 3,639,669
+reads read      : 7,279,338
+reads written   : 7,279,338
+------------------------------------------
+Processing: SRR33343103
+------------------------------------------
+2026-05-03T10:15:58 prefetch.3.1.1: 1) Resolving 'SRR33343103'...
+2026-05-03T10:16:00 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T10:16:01 prefetch.3.1.1: 1) Downloading 'SRR33343103'...
+2026-05-03T10:16:01 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T10:16:01 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T10:19:21 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T10:19:21 prefetch.3.1.1:  'SRR33343103' is valid: 312734630 bytes were streamed from 312721605
+2026-05-03T10:19:21 prefetch.3.1.1: 1) 'SRR33343103' was downloaded successfully
+2026-05-03T10:19:21 prefetch.3.1.1: 'SRR33343103' has 0 unresolved dependencies
+spots read      : 3,537,430
+reads read      : 7,074,860
+reads written   : 7,074,860
+------------------------------------------
+Processing: SRR33343215
+------------------------------------------
+2026-05-03T10:30:05 prefetch.3.1.1: 1) Resolving 'SRR33343215'...
+2026-05-03T10:30:07 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T10:30:08 prefetch.3.1.1: 1) Downloading 'SRR33343215'...
+2026-05-03T10:30:08 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T10:30:08 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T10:33:22 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T10:33:23 prefetch.3.1.1:  'SRR33343215' is valid: 311221180 bytes were streamed from 311208471
+2026-05-03T10:33:23 prefetch.3.1.1: 1) 'SRR33343215' was downloaded successfully
+2026-05-03T10:33:23 prefetch.3.1.1: 'SRR33343215' has 0 unresolved dependencies
+spots read      : 3,499,096
+reads read      : 6,998,192
+reads written   : 6,998,192
+------------------------------------------
+Processing: SRR33343226
+------------------------------------------
+2026-05-03T10:46:12 prefetch.3.1.1: 1) Resolving 'SRR33343226'...
+2026-05-03T10:46:15 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T10:46:16 prefetch.3.1.1: 1) Downloading 'SRR33343226'...
+2026-05-03T10:46:16 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T10:46:16 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T10:49:06 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T10:49:07 prefetch.3.1.1:  'SRR33343226' is valid: 308175908 bytes were streamed from 308172311
+2026-05-03T10:49:07 prefetch.3.1.1: 1) 'SRR33343226' was downloaded successfully
+2026-05-03T10:49:07 prefetch.3.1.1: 'SRR33343226' has 0 unresolved dependencies
+spots read      : 3,467,775
+reads read      : 6,935,550
+reads written   : 6,935,550
+------------------------------------------
+Processing: SRR33343122
+------------------------------------------
+2026-05-03T11:02:44 prefetch.3.1.1: 1) Resolving 'SRR33343122'...
+2026-05-03T11:02:47 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T11:02:48 prefetch.3.1.1: 1) Downloading 'SRR33343122'...
+2026-05-03T11:02:48 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T11:02:48 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T11:08:36 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T11:08:37 prefetch.3.1.1:  'SRR33343122' is valid: 305323603 bytes were streamed from 305310231
+2026-05-03T11:08:37 prefetch.3.1.1: 1) 'SRR33343122' was downloaded successfully
+2026-05-03T11:08:37 prefetch.3.1.1: 'SRR33343122' has 0 unresolved dependencies
+spots read      : 3,431,060
+reads read      : 6,862,120
+reads written   : 6,862,120
+------------------------------------------
+Processing: SRR33343152
+------------------------------------------
+2026-05-03T11:21:10 prefetch.3.1.1: 1) Resolving 'SRR33343152'...
+2026-05-03T11:21:12 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T11:21:14 prefetch.3.1.1: 1) Downloading 'SRR33343152'...
+2026-05-03T11:21:14 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T11:21:14 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T11:24:39 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T11:24:40 prefetch.3.1.1:  'SRR33343152' is valid: 306266185 bytes were streamed from 306255383
+2026-05-03T11:24:40 prefetch.3.1.1: 1) 'SRR33343152' was downloaded successfully
+2026-05-03T11:24:40 prefetch.3.1.1: 'SRR33343152' has 0 unresolved dependencies
+spots read      : 3,542,144
+reads read      : 7,084,288
+reads written   : 7,084,288
+------------------------------------------
+Processing: SRR33343260
+------------------------------------------
+2026-05-03T11:35:44 prefetch.3.1.1: 1) Resolving 'SRR33343260'...
+2026-05-03T11:35:47 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T11:35:48 prefetch.3.1.1: 1) Downloading 'SRR33343260'...
+2026-05-03T11:35:48 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T11:35:48 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T11:38:53 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T11:38:53 prefetch.3.1.1:  'SRR33343260' is valid: 300535159 bytes were streamed from 300533239
+2026-05-03T11:38:53 prefetch.3.1.1: 1) 'SRR33343260' was downloaded successfully
+2026-05-03T11:38:53 prefetch.3.1.1: 'SRR33343260' has 0 unresolved dependencies
+spots read      : 3,382,841
+reads read      : 6,765,682
+reads written   : 6,765,682
+------------------------------------------
+Processing: SRR33343120
+------------------------------------------
+2026-05-03T11:50:20 prefetch.3.1.1: 1) Resolving 'SRR33343120'...
+2026-05-03T11:50:22 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T11:50:24 prefetch.3.1.1: 1) Downloading 'SRR33343120'...
+2026-05-03T11:50:24 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T11:50:24 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T11:54:09 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T11:54:10 prefetch.3.1.1:  'SRR33343120' is valid: 290848949 bytes were streamed from 290846231
+2026-05-03T11:54:10 prefetch.3.1.1: 1) 'SRR33343120' was downloaded successfully
+2026-05-03T11:54:10 prefetch.3.1.1: 'SRR33343120' has 0 unresolved dependencies
+spots read      : 3,268,126
+reads read      : 6,536,252
+reads written   : 6,536,252
+------------------------------------------
+Processing: SRR33343081
+------------------------------------------
+2026-05-03T12:06:14 prefetch.3.1.1: 1) Resolving 'SRR33343081'...
+2026-05-03T12:06:17 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T12:06:18 prefetch.3.1.1: 1) Downloading 'SRR33343081'...
+2026-05-03T12:06:18 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T12:06:18 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T12:10:34 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T12:10:35 prefetch.3.1.1:  'SRR33343081' is valid: 285324821 bytes were streamed from 285309443
+2026-05-03T12:10:35 prefetch.3.1.1: 1) 'SRR33343081' was downloaded successfully
+2026-05-03T12:10:35 prefetch.3.1.1: 'SRR33343081' has 0 unresolved dependencies
+spots read      : 3,229,029
+reads read      : 6,458,058
+reads written   : 6,458,058
+------------------------------------------
+Processing: SRR33394873
+------------------------------------------
+2026-05-03T12:22:08 prefetch.3.1.1: 1) Resolving 'SRR33394873'...
+2026-05-03T12:22:11 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T12:22:12 prefetch.3.1.1: 1) Downloading 'SRR33394873'...
+2026-05-03T12:22:12 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T12:22:12 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T12:25:34 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T12:25:35 prefetch.3.1.1:  'SRR33394873' is valid: 333838125 bytes were streamed from 333828611
+2026-05-03T12:25:35 prefetch.3.1.1: 1) 'SRR33394873' was downloaded successfully
+2026-05-03T12:25:35 prefetch.3.1.1: 'SRR33394873' has 0 unresolved dependencies
+spots read      : 3,237,912
+reads read      : 6,475,824
+reads written   : 6,475,824
+------------------------------------------
+Processing: SRR33343268
+------------------------------------------
+2026-05-03T12:39:52 prefetch.3.1.1: 1) Resolving 'SRR33343268'...
+2026-05-03T12:39:55 prefetch.3.1.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-05-03T12:39:57 prefetch.3.1.1: 1) Downloading 'SRR33343268'...
+2026-05-03T12:39:57 prefetch.3.1.1:  SRA Normalized Format file is being retrieved
+2026-05-03T12:39:57 prefetch.3.1.1:  Downloading via HTTPS...
+2026-05-03T12:44:01 prefetch.3.1.1:  HTTPS download succeed
+2026-05-03T12:44:02 prefetch.3.1.1:  'SRR33343268' is valid: 284204502 bytes were streamed from 284201475
+2026-05-03T12:44:02 prefetch.3.1.1: 1) 'SRR33343268' was downloaded successfully
+2026-05-03T12:44:02 prefetch.3.1.1: 'SRR33343268' has 0 unresolved dependencies
+spots read      : 3,204,375
+reads read      : 6,408,750
+reads written   : 6,408,750

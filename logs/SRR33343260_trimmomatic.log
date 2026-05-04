@@ -1,0 +1,12 @@
+TrimmomaticPE: Started with arguments:
+ data/raw/SRR33343260_1.fastq data/raw/SRR33343260_2.fastq data/trimmed/SRR33343260_1_paired.fastq.gz data/trimmed/SRR33343260_1_unpaired.fastq.gz data/trimmed/SRR33343260_2_paired.fastq.gz data/trimmed/SRR33343260_2_unpaired.fastq.gz ILLUMINACLIP:/home/dre/miniforge3/envs/tb-bioinformatics/share/trimmomatic/adapters/NexteraPE-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 4 threads
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3382841 Both Surviving: 3211023 (94.92%) Forward Only Surviving: 121201 (3.58%) Reverse Only Surviving: 23995 (0.71%) Dropped: 26622 (0.79%)
+TrimmomaticPE: Completed successfully
