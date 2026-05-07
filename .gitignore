@@ -89,3 +89,6 @@ Miniforge3-Linux-x86_64.sh
 
 # Error logs
 *.errlog.txt
+
+# Marimo cache files
+scripts/__marimo__/
