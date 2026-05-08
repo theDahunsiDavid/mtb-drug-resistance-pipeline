@@ -90,7 +90,7 @@ Here are the key patterns:
 
 The findings observed in this project's cohort has public health and clinical implications for South Africa:
 
-1. **Treatment crisis:** 53% of the 15 isolates were found to be XDR-TB, while 87% of the isolates were found to be MDR-TB. This means the standard treatment regimens for XDR-TB and MDR-TB will do nothing for most of these patients. The next line of action is to use newer drugs like Bedaquiline, Linezolid, and Delamanid. However, these drugs are more expensive, require careful monitoring, and have significant side effects (such as cardiotoxicity).
+1. **Treatment crisis:** 53% of the 15 isolates were found to be XDR-TB, while 87% were resistant to Isoniazid. This means the standard MDR-TB regimen would be ineffective for the majority of these patients. The next line of action would be to use newer drugs like Bedaquiline, Linezolid, and Delamanid. However, these drugs are more expensive, require careful monitoring, and have significant side effects (such as cardiotoxicity).
 
 2. **Delamanid as a remaining option:** There was zero resistance to Delamanid across all 15 isolates. This means Delamanid is an effective drug for the patients in this cohort and should be prioritized in XDR-TB treatment regimens in South Africa.
 
