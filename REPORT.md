@@ -21,7 +21,9 @@ For this project, samples were drawn from BioProject PRJNA1256480 (B-Prepared, C
 
 ## 2. Lineage Distribution
 
-To reflect the evolutionary history and geographic spread of the different TB strains in this cohort, it is important to classify the MTB isolates within the global phylogeny of the M. tuberculosis complex.
+To reflect the evolutionary history and geographic spread of the different TB strains in this cohort, it is important to classify the MTB isolates within the global phylogeny of the M. tuberculosis complex. The distribution of these lineages is summarized in Figure 1 below.
+
+![Figure 1: Lineage Distribution across 15 South African MTB isolates](results/figures/fig2_lineage_distribution.png)
 
 Of the 15 isolates analyzed:
 
@@ -50,6 +52,69 @@ TB-Profiler classified the 15 isolates into resistance categories according to t
 
 The predominance of XDR-TB (53% of isolates) in this cohort reflects high drug resistance in the B-Prepared dataset. Nonetheless, this is consistent with the documented XDR-TB burden in South Africa, where the country accounts for a disproportionate share of global XDR-TB cases [2, 10].
 
+### 3.2 Resistance Frequency by Drug
+
+The frequency of resistance in the analyzed isolates to 12 TB-treatment drugs are summarized in Figure 2 below.
+
+![Figure 2: Drug Resistance Frequency across 15 MTB isolates](results/figures/fig1_resistance_frequency.png)
+
+**Rifampicin (100%):** All 15 isolates were resistant to Rifampicin. Although, this is expected as the samples seem to be from a high-resistance setting. Rifampicin resistance is mainly caused by mutations in the _rpoB_ gene (the gene that encodes the beta subunit of RNA polymerase). The most common mutation observed was _rpoB_ p.Ser450Leu, which is a canonical resistance-conferring substitution at codon 450 of the Rifampicin resistance-determining region (RRDR) [11].
+
+**Isoniazid (87%):** 13 of the 15 isolates were Isoniazid resistant. This resistance is mainly caused by _katG_ p.Ser315Thr. This gene encodes the catalase-peroxidase enzyme that activates Isoniazid. Isoniazid is a prodrug. That is, it needs to be converted into its active form by _katG_ before it can work. However, the p.Ser315Thr mutation disables this activation so that Isoniazid never gets activated.
+
+**Fluoroquinolones - Moxifloxacin and Levofloxacin (73% each):** Nearly three-quarters of the 15 isolates were resistant to fluoroquinolone. This is mainly caused by mutations in Quinolone Resistance-Determining Regions (QRDR) of _gyrA_ (p.Asp94Gly, p.Ala90Val) and _gyrB_ (p.Glu501Asp). This 73% resistance greatly limits treatment options because fluoroquinolones are a cornerstone of MDR-TB treatment regimens.
+
+**Bedaquiline and Clofazimine (67% each):** 10 of the 15 isolates were Bedaquiline and Clofazimine resistant, mainly caused by mutations in the _mmpR5_ (also known as _Rv0678_). This gene encodes a repressor protein that normally keeps the MmpL5 efflux pump switched off. If not switched off, the efflux pump will push both drugs out of the bacterial cell before they can work. Frameshift mutations in _mmpR5_ disable this repressor, making the efflux pump to run continuously. Now, Bedaquiline is relatively-new drug approved for MDR-TB treatment, so this much high resistance to a new drug is a major finding.
+
+**Streptomycin (73%):** Streptomycin is an older aminoglycoside. Resistance to it was widespread and caused by mutations in _rrs_ and _gid_.
+
+**Delamanid and Linezolid (0%):** None of the 15 isolates showed resistance to Delamanid or Linezolid. Delamanid in particular is a newer nitroimidazole drug. This finding is clinically significant because it means Delamanid is a viable treatment option for XDR-TB in this cohort.
+
+### 3.2 Per-Sample Resistance Profiles
+
+The binary resistance in the 15 isolates to the 12 drugs are summarized in Figure 3 below.
+
+![Figure 3: Per-Sample Drug Resistance Profile across 15 MTB isolates](results/figures/fig3_resistance_heatmap.png)
+
+Here are the key patterns:
+
+- **XDR-TB Clustering:** The eight XDR-TB isolates at the top of the heatmap show broad resistance across most of the drug classes. There's notably dense resistance in the fluoroquinolone and Bedaquiline columns, confirming the advanced resistance status of these strains.
+
+- **Rifampicin Mono-Resistance (RR-TB):** Two RR-TB isolates (SRR33343103 and SRR33394873) show resistance to Rifampicin only and almost nothing else. This could mean there's an emerging early-stage resistance. It could also mean the resistance to Rifampicin was recently acquired but there are no subsequent mutations to transition to MDR and XDR status yet.
+
+- **Quality Control Insight:** During QC, specifically in the reverse reads, SRR33394873 showed elevated adapter contamination (85.94% read pair survival versus >93% for other samples). Heavy trimming caused a significant portion of reverse reads to fall below the 36bp length threshold during the ILLUMINACLIP step in Trimmomatic. Despite this attrition, mapping rates remained high (>99%), meaning variant calling was still reliable.
+
+---
+
+## 4. Clinical and Epidemiological Implications
+
+The findings observed in this project's cohort has public health and clinical implications for South Africa:
+
+1. **Treatment crisis:** 53% of the 15 isolates were found to be XDR-TB, while 87% of the isolates were found to be MDR-TB. This means the standard treatment regimens for XDR-TB and MDR-TB will do nothing for most of these patients. The next line of action is to use newer drugs like Bedaquiline, Linezolid, and Delamanid. However, these drugs are more expensive, require careful monitoring, and have significant side effects (such as cardiotoxicity).
+
+2. **Delamanid as a remaining option:** There was zero resistance to Delamanid across all 15 isolates. This means Delamanid is an effective drug for the patients in this cohort and should be prioritized in XDR-TB treatment regimens in South Africa.
+
+3. **Bedaquiline resistance concern:** Bedaquiline is a relatively-new drug that was introduced as a cornerstone of XDR-TB treatment. Hence, the 67% Bedaquiline resistance that was noticed in this cohort is concerning. It could mean that resistance is evolving rapidly despite the drug's newness.
+
+4. **Beijing lineage and resistance amplification:** Lineage 2 (Beijing) is strongly associated with drug-resistance acquisition. This means Lineage 2 acquires drug resistance faster than other lineages. Unfortunately, 47% (n=7) of the 15 isolates fall under Lineage 2. This likely explains the severe resistance burden observed in this cohort. Additionally, Lineage 4 is associated with high transmissibility. Then other 47% (n=7) of the 15 isolates falls under Lineage 4. This co-existence of Lineage 2 and Lineage 4 XDR-TB strains in South Africa reflects a serious transmission risk.
+
+5. **Genomic Drug Susceptibility Testing (DST) as a tool:** This analysis demonstrates the efficacy of WGS-based drug-resistance profiling. Using just the raw sequencing data of 15 isolates, TB-Profiler was able to predict resistance profiles, provide drug-level resolution, and provide lineage classification. This method of analysis will be significantly beneficial in clinical settings where conventional culture-based DST is relatively slower.
+
+---
+
+## 5. Limitations
+
+- **Sample size:** The small sample size of 15 isolates limits the statistical power of frequency estimates. Therefore, the resistance frequencies observed in this cohort should be thought of as indicative, instead of representative of the entire South African MTB population.
+- **Selection bias:** All the 15 isolates are from a single BioProject submitted by Columbia University (PRJNA1256480). Hence, there may be selection bias towards high-resistance isolates.
+- **Temporal constraints:** The collection dates for the samples are not available ("Not collected"), as at the 8th of May, 2026. This prevents time-series analysis of the resistance that's observed.
+- **Database dependency:** TB-Profiler uses known resistance-associated variants in the tbdb database to predict drug resistance. Hence, new or rare variants that are yet added to the tbdb database may cause false-susceptible predictions.
+
+---
+
+## 6. Conclusion
+
+The 15 South African _MTB_ whole-genome sequences that were analyzed in this cohort reveal a high prevalence of extensively drug-resistant tuberculosis. There was universal Rifampicin resistance, near-universal Isoniazid resistance, and high rates of fluoroquinolone and Bedaquiline resistance. The near-equal prevalence of Lineage 2 (_Beijing_) and Lineage 4 (_Euro-American_) strains reveal high transmissibility and high resistance acquisition. These also imply a severe drug resistance crisis in South Africa. Delamanid is the only drug that recorded zero resistance across all 15 samples, and this signals its potential value in treatment regimens for the South African population. In conclusion, this cohort's findings demonstrate the importance of genomic surveillance in TB control efforts.
+
 ---
 
 ## References
@@ -73,3 +138,5 @@ The predominance of XDR-TB (53% of isolates) in this cohort reflects high drug r
 9. World Health Organization. (2021). WHO consolidated guidelines on tuberculosis. Module 3: Diagnosis - Rapid diagnostics for tuberculosis detection. Geneva: World Health Organization.
 
 10. Conradie, F., et al. (2020). Treatment of Highly Drug-Resistant Pulmonary Tuberculosis. New England Journal of Medicine, 382(10), 893-902.
+
+11. World Health Organization (2021). Catalogue of mutations in Mycobacterium tuberculosis complex and their association with drug resistance. Geneva: World Health Organization.
