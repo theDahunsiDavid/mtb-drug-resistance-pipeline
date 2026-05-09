@@ -36,6 +36,31 @@ The pipeline consists of six sequential steps:
 
 ## Repository Structure
 
+```bash
+mtb-drug-resistance-pipeline/
+├── README.md                   # This file
+├── REPORT.md                   # Biological interpretation of findings
+├── environment.yml             # Conda environment specification
+├── data/
+│   ├── accessions.csv          # Sample metadata (15 South African MTB isolates)
+│   └── SRR_Acc_List.txt        # SRA accession numbers (one per line)
+├── scripts/
+│   ├── download_samples.sh     # Downloads raw FASTQ files from NCBI SRA
+│   ├── run_qc.sh               # Runs FastQC and Trimmomatic on all samples
+│   ├── run_tbprofiler.sh       # Runs TB-Profiler on all trimmed samples
+│   └── aggregate_and_visualise.py # Aggregates results and produces figures
+├── logs/                       # Per-sample logs for each pipeline step
+├── results/
+│   ├── qc/
+│   │   ├── raw/                # FastQC reports for raw reads
+│   │   └── trimmed/            # FastQC reports for trimmed reads
+│   ├── tbprofiler/
+│   │   ├── tbprofiler_summary.csv      # Collated resistance and lineage summary
+│   │   └── tbprofiler_summary.variants.csv # Detailed variant calls per sample
+│   └── figures/
+│       ├── fig1_resistance_frequency.png  # Bar chart: resistance frequency per drug
+│       ├── fig2_lineage_distribution.png  # Pie chart: lineage distribution
+│       └── fig3_resistance_heatmap.png    # Heatmap: per-sample resistance profiles
 ```
 
 mtb-drug-resistance-pipeline/
@@ -63,7 +88,7 @@ mtb-drug-resistance-pipeline/
 │ ├── fig2_lineage_distribution.png # Pie chart: lineage distribution
 │ └── fig3_resistance_heatmap.png # Heatmap: per-sample resistance profiles
 
-```
+````
 
 ---
 
@@ -84,7 +109,7 @@ mtb-drug-resistance-pipeline/
 ```bash
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 bash Miniforge3-$(uname)-$(uname -m).sh
-```
+````
 
 ### 2. Configure conda channels
 
