@@ -20,17 +20,17 @@ For this project, samples were drawn from BioProject PRJNA1256480 (B-Prepared, C
 
 The pipeline consists of six sequential steps:
 
-1. **Sample selection** — 15 paired-end Illumina WGS MTB isolates from South Africa selected from NCBI SRA (BioProject PRJNA1256480) and documented in `data/accessions.csv` and `data/SRR_Acc_List.txt`.
+1. **Sample selection:** 15 paired-end Illumina WGS MTB isolates from South Africa selected from NCBI SRA (BioProject PRJNA1256480) and documented in `data/accessions.csv` and `data/SRR_Acc_List.txt`.
 
-2. **Data download** — Raw FASTQ files downloaded using SRA Toolkit (`prefetch` + `fasterq-dump`).
+2. **Data download:** Raw FASTQ files downloaded using SRA Toolkit (`prefetch` + `fasterq-dump`).
 
-3. **Quality control** — Raw reads assessed with FastQC, trimmed with Trimmomatic (adapter removal, quality filtering, minimum length 36bp), and post-trim reads re-assessed with FastQC.
+3. **Quality control:** Raw reads assessed with FastQC, trimmed with Trimmomatic (adapter removal, quality filtering, minimum length 36bp), and post-trim reads re-assessed with FastQC.
 
-4. **Drug resistance profiling** — TB-Profiler aligns trimmed reads to the MTB H37Rv reference genome, calls variants, predicts resistance to 18 drugs, and classifies each isolate's lineage.
+4. **Drug resistance profiling:** TB-Profiler aligns trimmed reads to the MTB H37Rv reference genome, calls variants, predicts resistance to 18 drugs, and classifies each isolate's lineage.
 
-5. **Results aggregation** — Individual TB-Profiler JSON outputs collated into a structured summary CSV using `tb-profiler collate`.
+5. **Results aggregation:** Individual TB-Profiler JSON outputs collated into a structured summary CSV using `tb-profiler collate`.
 
-6. **Analysis and visualisation** — Python script using Pandas, Matplotlib, and Seaborn produces three publication-quality figures and a structured resistance summary.
+6. **Analysis and visualisation:** Python script using Pandas, Matplotlib, and Seaborn produces three publication-quality figures and a structured resistance summary.
 
 ---
 
