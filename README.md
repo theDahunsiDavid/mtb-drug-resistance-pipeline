@@ -206,7 +206,7 @@ All 15 isolates were rifampicin-resistant. Isoniazid resistance was observed in 
 
 ## Biological Interpretation
 
-This cohort reveals a high prevalence of extensively drug-resistant tuberculosis in South African MTB isolates. There was universal rifampicin resistance, near-universal isoniazid resistance, and high rates of fluoroquinolone and bedaquiline resistance. Delamanid, linezolid, and pretomanid are the only primary newer-generation drugs that recorded zero resistance across all 15 samples. The near-equal prevalence of Lineage 2 (associated with resistance acquisition) and Lineage 4 (associated with transmissibility) represents a serious public health concern.
+This cohort reveals a high prevalence of extensively drug-resistant tuberculosis in South African MTB isolates. There was universal rifampicin resistance, near-universal isoniazid resistance, and high rates of fluoroquinolone and bedaquiline resistance. Delamanid, linezolid, and pretomanid are the only primary newer-generation drugs that recorded zero resistance across all 15 samples. Also, the near-equal prevalence of Lineage 2 (associated with resistance acquisition) and Lineage 4 (associated with transmissibility) represents a serious public health concern.
 
 See [REPORT.md](REPORT.md) for the full biological interpretation, including mutation-level analysis, clinical implications, and study limitations.
 
