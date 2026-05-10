@@ -92,7 +92,7 @@ The findings observed in this project's cohort has public health and clinical im
 
 1. **Treatment crisis:** 53% of the 15 isolates were found to be XDR-TB, while 87% were resistant to isoniazid. This means the standard MDR-TB regimen would be ineffective for the majority of these patients. The next line of action would be to use newer drugs like bedaquiline, linezolid, and delamanid. However, these drugs are more expensive, require careful monitoring, and have significant side effects (such as cardiotoxicity).
 
-2. **Delamanid and linezolid as the remaining options:** There was zero resistance to delamanid and linezolid across all 15 isolates. This means both are effective drugs for the patients in this cohort and should be prioritized in XDR-TB treatment regimens in South Africa.
+2. **Delamanid and linezolid as viable options:** There was zero resistance to delamanid, linezolid, and pretomanid across all 15 isolates. This means these are effective drugs for the patients in this cohort and should be prioritized in XDR-TB treatment regimens in South Africa. It's also worth noting that there was zero resistance to para-aminosalicylic acid, though it's an older and much more toxic drug that is usually a last resort.
 
 3. **Bedaquiline resistance concern:** Bedaquiline is a relatively-new drug that was introduced as a cornerstone of XDR-TB treatment. Hence, the 67% bedaquiline resistance that was noticed in this cohort is concerning. It could mean that resistance is evolving rapidly despite the drug's newness.
 
@@ -113,7 +113,7 @@ The findings observed in this project's cohort has public health and clinical im
 
 ## 6. Conclusion
 
-The 15 South African _MTB_ whole-genome sequences that were analyzed in this cohort reveal a high prevalence of extensively drug-resistant tuberculosis. There was universal rifampicin resistance, near-universal isoniazid resistance, and high rates of fluoroquinolone and bedaquiline resistance. The near-equal prevalence of Lineage 2 (_Beijing_) and Lineage 4 (_Euro-American_) strains reveal high transmissibility and high resistance acquisition. It also implies a compounding drug resistance crisis in South Africa. Delamanid and linezolid are the only drugs that recorded zero resistance across all 15 samples, and this signals their potential value in treatment regimens for the South African population. In conclusion, this cohort's findings demonstrate the importance of genomic surveillance in TB control efforts.
+The 15 South African _MTB_ whole-genome sequences that were analyzed in this cohort reveal a high prevalence of extensively drug-resistant tuberculosis. There was universal rifampicin resistance, near-universal isoniazid resistance, and high rates of fluoroquinolone and bedaquiline resistance. The near-equal prevalence of Lineage 2 (_Beijing_) and Lineage 4 (_Euro-American_) strains reveal high transmissibility and high resistance acquisition. It also implies a compounding drug resistance crisis in South Africa. Delamanid, linezolid, and pretomanid are the new-generation drugs that recorded zero resistance across all 15 samples, and this signals their potential value in treatment regimens for the South African population. In conclusion, this cohort's findings demonstrate the importance of genomic surveillance in TB control efforts.
 
 ---
 
