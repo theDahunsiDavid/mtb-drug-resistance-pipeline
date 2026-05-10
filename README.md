@@ -1,5 +1,10 @@
 # Drug Resistance Profiling of _Mycobacterium tuberculosis_ Genomes
 
+[![TB-Profiler](https://img.shields.io/badge/TB--Profiler-6.3-orange)]()
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
+[![Conda](https://img.shields.io/badge/Conda-24+-43b02a?logo=anaconda)](https://docs.conda.io)
+[![Marimo](https://img.shields.io/badge/Marimo-0.23.4-1b998b)](https://marimo.io)
+
 This project provides a reproducible bioinformatics pipeline for whole-genome sequencing (WGS)-based drug resistance profiling and lineage classification of _Mycobacterium tuberculosis_ (MTB) isolates from South Africa.
 
 ---
